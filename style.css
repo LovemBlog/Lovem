@@ -1,9 +1,9 @@
 /* ------------------------------------
- * Typecho Default Theme
+ * Typecho Default Theme  --> --> Lovem
  *
- * @author  Typecho Team
- * @link  http: //typecho.org/
- * @update  2013-10-28
+ * @author  Leo
+ * @link  http://blog.lovem.fun
+ * @update  2019-01-28
  * --------------------------------- */
 
 /* ------------------
@@ -73,7 +73,9 @@ textarea {
   padding: 5px;
   border: 1px solid #E9E9E9;
   width: 100%;
-
+  background-color: #444;
+  color: #fff;
+  outline: none;
   border-radius: 2px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -534,4 +536,21 @@ pre::-webkit-scrollbar-track code::-webkit-scrollbar-track {
 pre::-webkit-input-placeholder code::-webkit-input-placeholder {
   font-size: 12px;
   color: #C9C9C9;
+}
+
+/* button */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  border: none;
+  background: #fff9e8;
+  color: #444;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* catalog */
+.lovem-catalog {
+  list-style: none;
 }
