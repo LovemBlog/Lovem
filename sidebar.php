@@ -15,7 +15,7 @@
     <?php if ($showCatalog == 1): ?>
     <section class="widget">
         <h3 class="widget-title"><?php _e('目录'); ?></h3>
-        <li><a href="javascript:;"><?php $this->title() ?></a></li>
+        <li class="lovem-catalog"><a href="javascript:;"><?php $this->title() ?></a></li>
     </section>
     <?php endif; ?>
 
