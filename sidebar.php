@@ -15,7 +15,6 @@
     <?php if ($showCatalog == 1): ?>
     <section class="widget">
         <h3 class="widget-title"><?php _e('目录'); ?></h3>
-        <!-- index-menu -->
     </section>
     <?php endif; ?>
 

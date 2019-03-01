@@ -9,7 +9,6 @@
             <li><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date(); ?></time></li>
             <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
         </ul>
-        <!-- index-menu -->
         <div class="post-content" itemprop="articleBody">
             <?php $this->content(); ?>
         </div>
