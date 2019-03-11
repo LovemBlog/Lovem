@@ -15,7 +15,8 @@
         <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></p>
     </article>
 
-    <?php $this->need('comments.php'); ?>
+    <!-- <?php $this->need('comments.php'); ?> -->
+    <div id="SOHUCS" sid="<?php echo $this->cid;?>" class="container"></div>
 
     <ul class="post-near">
         <li>上一篇: <?php $this->thePrev('%s','没有了'); ?></li>
