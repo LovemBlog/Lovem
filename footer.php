@@ -15,7 +15,6 @@
     <?php endif; ?>
 </footer><!-- end #footer -->
 <?php $this->footer(); ?>
-<div id="SOHUCS" sid="<?php echo $this->cid;?>" class="container"></div>
 <script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad()</script>
 <script>
