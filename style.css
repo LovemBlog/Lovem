@@ -92,14 +92,12 @@ textarea {
 /* Special link style */
 .post-meta a,
 .post-content a,
-.widget a,
 .comment-content a {
   border-bottom: 1px solid #EEE;
 }
 
 .post-meta a:hover,
 .post-content a:hover,
-.widget a:hover,
 .comment-content a:hover {
   border-bottom-color: transparent;
 }
@@ -362,7 +360,17 @@ textarea {
   word-wrap: break-word;
 }
 .widget {
+  padding: 10px;
   margin-bottom: 30px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+.widget a {
+  border-bottom: none;
+}
+.widget a:hover {
+  border-bottom-color: transparent;
 }
 .widget-list {
   list-style: none;
@@ -371,10 +379,29 @@ textarea {
 .widget-list li {
   margin: 5px 0;
   line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .widget-list li ul {
   margin-left: 15px;
+}
+.widget-title {
+  position: relative;
+  padding-left: 10px;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #999;
+}
+.widget-title:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 1.17em;
+  background-color: #999;
 }
 
 
@@ -565,4 +592,13 @@ button,
   display: block;
   position: relative;
   top: -60px;
+}
+
+.ban-select {
+  -moz-user-select: none; 
+  -o-user-select:none; 
+  -khtml-user-select:none; 
+  -webkit-user-select:none; 
+  -ms-user-select:none; 
+  user-select:none;
 }
