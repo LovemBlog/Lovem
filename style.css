@@ -304,13 +304,15 @@ textarea {
   border: 1px solid #EEE;
 }
 .comment-list li.comment-level-odd {
-  background: #F6F6F3;
+  background: #363B40;
 }
 .comment-list li.comment-level-even {
   background: #FFF;
 }
 .comment-list li.comment-by-author {
-  background: #FFF9E8;
+  border: none;
+  border-top: 1px dashed #eee;
+  background: #363B40;
 }
 .comment-list li .comment-reply {
   text-align: right;
