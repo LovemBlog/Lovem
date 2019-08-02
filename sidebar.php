@@ -70,7 +70,7 @@
     ?>
     <?php if ($showCatalog == 1): ?>
     <section class="widget" id="Lovem-post-menu">
-        <h3 class="widget-title Lovem-post-menu-title ban-select"><?php _e('目录 （功能维护中）'); ?></h3>
+        <h3 class="widget-title Lovem-post-menu-title ban-select"><?php _e('目录'); ?></h3>
     </section>
     <?php endif; ?>
 
