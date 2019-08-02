@@ -1,23 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
 
-    <?php
-        $_url = $_SERVER['REQUEST_URI']; // 获取当前 url 参数部分
-        $regexp = array('/\/archives\//', '/\/build_page.html/'); // 需要显示目录的相关页面的正则数组
-        $showCatalog = 0;
-        for ($i = 0; $i < count($regexp); $i++) {
-            if (preg_match($regexp[$i], $_url) > 0) {
-                $showCatalog = 1;
-                break;
-            }
-        }
-    ?>
-    <?php if ($showCatalog == 1): ?>
-    <section class="widget">
-        <h3 class="widget-title"><?php _e('目录'); ?></h3>
-    </section>
-    <?php endif; ?>
-
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentPosts', $this->options->sidebarBlock)): ?>
     <section class="widget">
 		<h3 class="widget-title"><?php _e('最新文章'); ?></h3>
@@ -72,6 +55,23 @@
             <li><a href="http://www.typecho.org">Typecho</a></li>
         </ul>
 	</section>
+    <?php endif; ?>
+
+    <?php
+        $_url = $_SERVER['REQUEST_URI']; // 获取当前 url 参数部分
+        $regexp = array('/\/archives\//', '/\/build_page.html/'); // 需要显示目录的相关页面的正则数组
+        $showCatalog = 0;
+        for ($i = 0; $i < count($regexp); $i++) {
+            if (preg_match($regexp[$i], $_url) > 0) {
+                $showCatalog = 1;
+                break;
+            }
+        }
+    ?>
+    <?php if ($showCatalog == 1): ?>
+    <section class="widget" id="Lovem-post-menu">
+        <h3 class="widget-title Lovem-post-menu-title ban-select"><?php _e('目录'); ?></h3>
+    </section>
     <?php endif; ?>
 
 </div><!-- end #sidebar -->
