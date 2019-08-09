@@ -49,16 +49,19 @@ blockquote {
 }
 
 table {
-  border: 1px solid #ddd;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-collapse: collapse;
   width: 100%;
 }
 table th,
 table td {
   padding: 5px 10px;
-  border: 1px solid #eee;
+  border-left: 1px solid #999;
+  border-top: 1px solid #999;
 }
 table th {
-  background: #f3f3f3;
+  background: #363B40;
 }
 
 h1, h2, h3, h4, h5, h6 {
