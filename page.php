@@ -8,8 +8,7 @@
             <?php $this->content(); ?>
         </div>
     </article>
-    <?php //$this->need('comments.php'); ?>
-    <div id="SOHUCS" sid="<?php echo $this->cid;?>" class="container"></div>
+    <?php $this->need('comments.php'); ?>
 </div><!-- end #main-->
 
 <?php $this->need('sidebar.php'); ?>
