@@ -5,6 +5,7 @@
  * @link  http://blog.lovem.fun
  * @update  2019-01-28
  * --------------------------------- */
+
 /* ------------------
  * Global style
  * --------------- */
@@ -12,33 +13,28 @@ body {
   background-color: #363B40;
   color: #999;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Microsoft YaHei', "Droid Serif", Georgia, "Times New Roman", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", "Microsoft Yahei", serif;
+  font-family: 'Microsoft YaHei', "Droid Serif", Georgia, "Times New Roman", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei","Microsoft Yahei", serif;
   font-size: 87.5%;
 }
 #body {
-  min-height: calc(100vh - 265px);
+  min-height: calc(~"100vh - 265px");
 }
+
 a {
   color: #b8bfc6;
   text-decoration: none;
 }
-a:hover,
-a:active {
-  color: #ffffff;
+a:hover, a:active {
+  color: rgb(255, 255, 255);
 }
-.page-navigator a:active,
-.page-navigator a:hover {
+.page-navigator a:active, .page-navigator a:hover {
   color: #b8bfc6;
 }
-pre,
-code {
+pre, code { 
   font-family: Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
   font-size: .92857em;
 }
-code {
-  padding: 2px 4px;
-  color: #f99b15;
-}
+code { padding: 2px 4px; color: #f99b15; }
 pre {
   overflow: auto;
   max-height: 400px;
@@ -47,12 +43,14 @@ pre code {
   padding: 3px;
   color: #444;
 }
+
 blockquote {
   margin: 1em 0;
   padding-left: 1.5em;
   border-left: 4px solid #eee;
   color: #666;
 }
+
 table {
   border-right: 1px solid #999;
   border-bottom: 1px solid #999;
@@ -69,15 +67,12 @@ table th {
   background: #363B40;
   color: #ccc;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei","Microsoft Yahei", sans-serif;
   color: #dedede;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -99,17 +94,21 @@ textarea {
   background-color: #444;
   outline: none;
 }
+
+
 /* Special link style */
 .post-meta a,
 .post-content a,
 .comment-content a {
   border-bottom: 1px solid #EEE;
 }
+
 .post-meta a:hover,
 .post-content a:hover,
 .comment-content a:hover {
   border-bottom-color: transparent;
 }
+
 .browsehappy {
   padding: 8px 0;
   background: #FBE3E4;
@@ -121,25 +120,30 @@ textarea {
   text-decoration: underline;
   font-weight: bold;
 }
+
 /* ------------------
  * Header
  * --------------- */
+
 #header {
   padding-top: 35px;
   border-bottom: 1px solid #EEE;
 }
+
 #logo {
   color: #ddd;
   font-size: 2.5em;
 }
 #logo img {
-  max-height: 64px;
+    max-height: 64px;
 }
+
 .description {
   margin: .5em 0 0;
   color: #999;
   font-style: italic;
 }
+
 /* Navigation menu */
 #nav-menu {
   margin: 25px 0 0;
@@ -160,6 +164,7 @@ textarea {
   background: #F6F6F6;
   color: #000;
 }
+
 /* Search */
 #search {
   position: relative;
@@ -180,11 +185,13 @@ textarea {
   width: 24px;
   height: 24px;
   background: transparent url(img/icon-search.png) no-repeat center center;
-  direction: ltr;
-  /* fix RTL language */
+  direction: ltr; /* fix RTL language */
   text-indent: -9999em;
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
   #search button {
     background-image: url(img/icon-search@2x.png);
     -webkit-background-size: 24px 24px;
@@ -193,9 +200,12 @@ textarea {
     background-size: 24px 24px;
   }
 }
+
+
 /* ------------------
  * Main
  * --------------- */
+
 .post {
   padding: 15px 0 20px;
   border-bottom: 1px solid #EEE;
@@ -227,6 +237,7 @@ textarea {
 .post .tags {
   clear: both;
 }
+
 .post-near {
   list-style: none;
   margin: 30px 0;
@@ -236,6 +247,7 @@ textarea {
 .post-near li {
   margin: 10px 0;
 }
+
 .archive-title {
   margin: 1em 0 -1em;
   padding-top: 20px;
@@ -251,7 +263,9 @@ textarea {
 .protected .text {
   width: 50%;
 }
+
 /* Page nav */
+
 .page-navigator {
   list-style: none;
   margin: 25px 0;
@@ -272,18 +286,19 @@ textarea {
   background: #EEE;
   text-decoration: none;
 }
+
 .page-navigator .current a {
   color: #444;
   background: #EEE;
 }
+
 /* ------------------
  * Comment list
  * --------------- */
 #comments {
   padding-top: 15px;
 }
-.comment-list,
-.comment-list ol {
+.comment-list, .comment-list ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -325,6 +340,7 @@ textarea {
   font-weight: bold;
   font-style: normal;
 }
+
 /* Comment reply */
 .comment-list .respond {
   margin-top: 15px;
@@ -344,6 +360,7 @@ textarea {
   content: " *";
   color: #C00;
 }
+
 /* ------------------
  * secondary
  * --------------- */
@@ -375,6 +392,7 @@ textarea {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 .widget-list li ul {
   margin-left: 15px;
 }
@@ -394,6 +412,8 @@ textarea {
   height: 1.17em;
   background-color: #999;
 }
+
+
 /* ------------------
  * Footer 
  * --------------- */
@@ -403,6 +423,8 @@ textarea {
   text-align: center;
   color: #999;
 }
+
+
 /* -----------------
  * Error page
  * -------------- */
@@ -410,43 +432,40 @@ textarea {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+
 /* -----------------
  * Content format
  *--------------- */
-.post-content,
-.comment-content {
+.post-content, .comment-content {
   line-height: 1.5;
   word-wrap: break-word;
 }
-.post-content h2,
-.comment-content h2 {
+.post-content h2, .comment-content h2 {
   font-size: 1.28571em;
 }
-.post-content img,
-.comment-content img,
-.post-content video,
-.comment-content video {
+.post-content img, .comment-content img,
+.post-content video, .comment-content video {
   max-width: 100%;
 }
 .post-content a img,
 .comment-content a img {
   background: #FFF;
   position: relative;
-  bottom: -4px;
-  /* hidden img parent link border  */
+  bottom: -4px;  /* hidden img parent link border  */
 }
-.post-content hr,
-.comment-content hr {
+.post-content hr, .comment-content hr {
   margin: 2em auto;
   width: 100px;
   border: 1px solid #E9E9E9;
   border-width: 2px 0 0 0;
 }
+
+
 /* -----------------
  * Misc
  *--------------- */
-.aligncenter,
-div.aligncenter {
+.aligncenter, div.aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -463,6 +482,8 @@ img.alignleft {
 img.alignright {
   margin: 0 0 0 15px;
 }
+
+
 /* -----------------
  * Responsive
  *--------------- */
@@ -476,6 +497,7 @@ img.alignright {
     margin: 0 -2px;
   }
 }
+
 @media (max-width: 768px) {
   #header,
   .post-title,
@@ -483,18 +505,25 @@ img.alignright {
     text-align: center;
   }
 }
+
+@media (min-width: 992px) {
+
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1160px;
   }
 }
+
+
 /*
 * Hide from both screenreaders and browsers: h5bp.com/u
 */
 .hidden {
   display: none !important;
-  visibility: hidden;
-}
+  visibility: hidden; }
+
 /*
 * Hide only visually, but have it available for screenreaders: h5bp.com/v
 */
@@ -505,8 +534,8 @@ img.alignright {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px;
-}
+  width: 1px; }
+
 /*
 * Extends the .sr-only class to allow the element to be focusable
 * when navigated to via the keyboard: h5bp.com/p
@@ -518,35 +547,34 @@ img.alignright {
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto;
-}
+  width: auto; }
+
 /*
 * Hide visually and from screenreaders, but maintain layout
 */
 .invisible {
-  visibility: hidden;
-}
+  visibility: hidden; }
+
 /* 代码滚动条样式 */
-pre::-webkit-scrollbar,
-code::-webkit-scrollbar {
-  width: 4px;
+pre::-webkit-scrollbar, code::-webkit-scrollbar {
+  width: 4px;     
   height: 4px;
 }
-pre::-webkit-scrollbar-thumb,
-code::-webkit-scrollbar-thumb {
+pre::-webkit-scrollbar-thumb, code::-webkit-scrollbar-thumb {
   border-radius: 2px;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
 }
 pre::-webkit-scrollbar-track code::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
   border-radius: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0,0,0,0.1);
 }
 pre::-webkit-input-placeholder code::-webkit-input-placeholder {
   font-size: 12px;
   color: #C9C9C9;
 }
+
 /* button */
 button,
 [type="button"],
@@ -558,24 +586,32 @@ button,
   padding: 5px;
   cursor: pointer;
 }
+
 /* catalog */
 .lovem-catalog {
   list-style: none;
 }
+
 /* Menu Tree */
-.index-menu .index-menu-list .index-menu-item .index-menu-link .menu-target-fix {
+.index-menu         
+.index-menu-list 
+.index-menu-item
+.index-menu-link
+.menu-target-fix{
   display: block;
   position: relative;
   top: -60px;
 }
+
 .ban-select {
-  -moz-user-select: none;
-  -o-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -moz-user-select: none; 
+  -o-user-select:none; 
+  -khtml-user-select:none; 
+  -webkit-user-select:none; 
+  -ms-user-select:none; 
+  user-select:none;
 }
+
 /* 追番列表相关样式 */
 .sub-list-container {
   box-sizing: border-box;
@@ -583,60 +619,61 @@ button,
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  & .sub-item {
+    width: 360px;
+    display: flex;
+    margin-bottom: 30px;
+    & .img-box {
+      position: relative;
+      width: 110px;
+      height: 140px;
+      border-radius: 4px;
+      overflow: hidden;
+      & img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    & .sub-info {
+      flex: 1;
+      padding-left: 20px;
+      overflow: hidden;
+      & .name {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        margin-bottom: 15px;
+      }
+      & .desc {
+        font-size: 12px;
+        color: #fff;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      & .channel {
+        font-size: 12px;
+        line-height: 1.5;
+        color: #999;
+        margin-bottom: 10px;
+      }
+      & .progress {
+        font-size: 12px;
+        line-height: 1.5;
+        color: #999;
+      }
+    }
+  }
 }
-.sub-list-container .sub-item {
-  width: 360px;
-  display: flex;
-  margin-bottom: 30px;
-}
-.sub-list-container .sub-item .img-box {
-  position: relative;
-  width: 110px;
-  height: 140px;
-  border-radius: 4px;
-  overflow: hidden;
-}
-.sub-list-container .sub-item .img-box img {
-  width: 100%;
-  height: 100%;
-}
-.sub-list-container .sub-item .sub-info {
-  flex: 1;
-  padding-left: 20px;
-  overflow: hidden;
-}
-.sub-list-container .sub-item .sub-info .name {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #fff;
-  margin-bottom: 15px;
-}
-.sub-list-container .sub-item .sub-info .desc {
-  font-size: 12px;
-  color: #fff;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-.sub-list-container .sub-item .sub-info .channel {
-  font-size: 12px;
-  line-height: 1.5;
-  color: #999;
-  margin-bottom: 10px;
-}
-.sub-list-container .sub-item .sub-info .progress {
-  font-size: 12px;
-  line-height: 1.5;
-  color: #999;
-}
+
 /* 后加的公共样式 */
 .ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: nowrap
 }
 /* 二行超出省略 */
 .ellipsis-2lines {
-  overflow: hidden;
+  overflow : hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -653,6 +690,7 @@ button,
   font-weight: bold;
   color: #fff;
   text-align: left;
+  
 }
 .title-with-vertical-line:before {
   position: absolute;
