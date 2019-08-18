@@ -1,856 +1,856 @@
 {
-  "code": 0,
-  "message": "0",
-  "ttl": 1,
-  "data": {
-      "list": [
-          {
-              "season_id": 28013,
-              "media_id": 28221412,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "流汗吧！健身少女",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/6d61112820c9604021c8f791034e542a511e355d.jpg",
-              "total_count": -1,
-              "is_finish": 0,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1,
-                  "allow_bp": 1
-              },
-              "stat": {
-                  "follow": 1099715,
-                  "view": 14402862,
-                  "danmaku": 275507,
-                  "reply": 38443,
-                  "coin": 78214
-              },
-              "new_ep": {
-                  "id": 276619,
-                  "index_show": "更新至第7话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/d845253fdec1a9e808d7e886d5d8e3bd672542a3.jpg",
-                  "title": "7",
-                  "long_title": "想成为偶像吗？",
-                  "pub_time": "2019-08-14 22:30:00"
-              },
-              "rating": {
-                  "score": 9.8,
-                  "count": 7525
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/d609f727db1cccbe4beb38ccc25ac9c453a3a76b.png",
-              "season_status": 2,
-              "season_title": "TV",
-              "badge_ep": "",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "“响……你又胖了吧？”\n朋友毫不留情的一句话，刺入爱吃的女高中生·纱仓响心中。\n她想着暑假之前绝对要瘦下来而决定减肥，却陷入一个人无法好好持续运动的窘境。\n为此而苦恼的响，前往的地方是健身房！\n她在入...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 276613,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 28016,
-              "media_id": 28221415,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "女高中生的虚度日常",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/97007f464a9511abdbf8bf938c01dcdbaab151e0.jpg",
-              "total_count": -1,
-              "is_finish": 0,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员抢先",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 1345585,
-                  "view": 15455096,
-                  "danmaku": 378303,
-                  "reply": 37784,
-                  "coin": 95171
-              },
-              "new_ep": {
-                  "id": 276686,
-                  "index_show": "更新至第7话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/982bd82870db09148571bdc8c4d199537eca779a.jpg",
-                  "title": "7",
-                  "long_title": "有病",
-                  "pub_time": "2019-08-16 22:00:00"
-              },
-              "rating": {
-                  "score": 9.8,
-                  "count": 14135
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/a4205c4fb8388476906a769e631d14d3f9e205d4.png",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "被浪费的青春——\n偏差值差不多的田中（通称“笨蛋”）、沉迷于BL的菊池（通称：“御宅”）、面无表情的才女・鹭宫（通称“机器人”）。个性十足的女高中生们无所事事的日常校园生活——...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 276680,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 25823,
-              "media_id": 140252,
-              "season_type": 4,
-              "season_type_name": "国创",
-              "title": "画江湖之不良人 第三季",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/8f19c704a6516bab4716931db10621c1b6c6e4bf.jpg",
-              "total_count": 40,
-              "is_finish": 0,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员抢先",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1,
-                  "allow_preview": 1
-              },
-              "stat": {
-                  "follow": 632336,
-                  "view": 36497591,
-                  "danmaku": 445945,
-                  "reply": 68281,
-                  "coin": 91462
-              },
-              "new_ep": {
-                  "id": 280817,
-                  "index_show": "更新至第32话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/27e09a95acafb3b4ac4a8baf200210fde303ed3c.png",
-                  "title": "32",
-                  "long_title": "李茂贞",
-                  "pub_time": "2019-08-15 12:00:00"
-              },
-              "rating": {
-                  "score": 8.6,
-                  "count": 4835
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/67a851a5cd87fef2ddd6f9bd6cf691781a1d8b95.jpg",
-              "season_status": 13,
-              "season_title": "第三季",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "《画江湖之不良人》第三季侠影归来，再现唐末乱世风云！王者弈天下 大唐生死局！\n乾陵被毁、龙泉宝藏下落不明，前朝皇子李星云欲归隐山林，不良帅决心挟天子以令诸侯，号召江湖各大势力复辟大唐，王道与霸道将在这...",
-              "areas": [
-                  {
-                      "id": 1,
-                      "name": "中国大陆"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 253576,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 26875,
-              "media_id": 24097891,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "CAROLE & TUESDAY",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/2e4708eb1fe628c23d09e570839f9ef484f0ca2e.png",
-              "total_count": -1,
-              "is_finish": 0,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员抢先",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 1916671,
-                  "view": 40373004,
-                  "danmaku": 678327,
-                  "reply": 104302,
-                  "coin": 375686
-              },
-              "new_ep": {
-                  "id": 269584,
-                  "index_show": "更新至第17话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/0ecea5ccc045b2f7d32c2e729f67d85d143ecd19.jpg",
-                  "title": "17",
-                  "long_title": "Head Over Heels",
-                  "pub_time": "2019-08-15 04:30:00"
-              },
-              "rating": {
-                  "score": 9.8,
-                  "count": 68084
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/826153e521ace94f60016a2a0fadb22256167cf3.jpg",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "距离人类移居到新的基地火星已经过了50年。这个时代中大多数的文化均由AI创造，人类只需要享受即可。\n有一位少女，生活在首都阿尔巴市，在工作之余的空闲时间里想努力成为一名音乐家，但她总感觉缺少些什么，她...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 267692,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 25681,
-              "media_id": 135652,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "JOJO的奇妙冒险 黄金之风",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/f34ff3975c39913af936c133ae60a5891babba08.png",
-              "total_count": 42,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员专享",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 2480531,
-                  "view": 178191227,
-                  "danmaku": 2037686,
-                  "reply": 700330,
-                  "coin": 751216
-              },
-              "new_ep": {
-                  "id": 275717,
-                  "index_show": "全42话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/39c4c078be0700aa4e312aa62402c6b6a7655ac7.jpg",
-                  "title": "39",
-                  "long_title": "沉睡的奴隶",
-                  "pub_time": "2019-07-28 20:30:00"
-              },
-              "rating": {
-                  "score": 9.9,
-                  "count": 153177
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/9af6bb684c8650578c1f5f435b57cd4ea1cba952.jpg",
-              "season_status": 13,
-              "season_title": "第五部",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "住在意大利那不勒斯的青年乔鲁诺·乔巴纳，是继承了乔斯达家宿敌·DIO之血脉的儿子。 \n幼年时遭受迫害而自暴自弃的他，由于拯救了一名黑帮男子，而学到了“相信他人”。不忘恩义、带着敬意对待自己的黑帮，让他...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 250611,
-              "can_watch": 1,
-              "follow_status": 3,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 26284,
-              "media_id": 4316482,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "盾之勇者成名录",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/de944b7c9306932d8dd3dcaeaf2eeec8670deec5.png",
-              "total_count": 25,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员专享",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 3171436,
-                  "view": 147240957,
-                  "danmaku": 2567286,
-                  "reply": 434365,
-                  "coin": 805493
-              },
-              "new_ep": {
-                  "id": 259698,
-                  "index_show": "全25话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/b284f02214629786135fb242d521266a51667bb0.jpg",
-                  "title": "25",
-                  "long_title": "盾之勇者成名录",
-                  "pub_time": "2019-06-26 22:00:00"
-              },
-              "rating": {
-                  "score": 7.2,
-                  "count": 196126
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/f02cf4282f5dec97d96c8b6afc4301f6bb831cc6.jpg",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "极为平凡的御宅族大学生·岩谷尚文，受到在图书馆发现的一本书所引导，被召唤到了异世界。他被赋予的使命，是作为装备着剑、枪、弓、盾的四圣勇者之一“盾之勇者”，驱逐给世界带来混沌的灾害“波”。因为大冒险而心...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 259674,
-              "can_watch": 1,
-              "follow_status": 3,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 26794,
-              "media_id": 22503880,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "贤者之孙",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/d1f2baf4ea8217dd89d1aa3e45a75301b345b306.png",
-              "total_count": 12,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员专享",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 1923256,
-                  "view": 54009416,
-                  "danmaku": 722730,
-                  "reply": 99388,
-                  "coin": 176091
-              },
-              "new_ep": {
-                  "id": 267691,
-                  "index_show": "全12话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/6dfb535dd2a1b2223fdace5782eeffa9c067ac77.jpg",
-                  "title": "12",
-                  "long_title": "然后，向着世界…",
-                  "pub_time": "2019-06-26 23:30:00"
-              },
-              "rating": {
-                  "score": 6.7,
-                  "count": 46499
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/00edf581880f15117dcc8f2b5e16e48d4a8fdd38.jpg",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "因意外过世的青年，转生到剑与魔法世界──强到破天荒!!!?\n理应意外身亡的青年，以婴儿姿态转世到了异世界!? 接着他被称为「贤者」的男人──梅林捡回家收养，取名为「西恩」。\n西恩在贤者身边学习魔法，并...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 267680,
-              "can_watch": 1,
-              "follow_status": 3,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 6422,
-              "media_id": 6422,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "黑色四叶草",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/c345335f3cc395f7cfbe7e7e0a4913f9b1671fe2.jpg",
-              "total_count": 0,
-              "is_finish": 0,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员专享",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 1078000,
-                  "view": 50216130,
-                  "danmaku": 649795,
-                  "reply": 120339,
-                  "coin": 153117
-              },
-              "new_ep": {
-                  "id": 280783,
-                  "index_show": "更新至第96话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/29f6b5c657ed920ad3835589dba44db1bc10a3a7.jpg",
-                  "title": "96",
-                  "long_title": "黑色暴牛团长VS深红的野蔷薇",
-                  "pub_time": "2019-08-13 18:25:06"
-              },
-              "rating": {
-                  "score": 8.4,
-                  "count": 17258
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/1d703634cd3ee35b625bf882f27289db301cae63.jpg",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 114966,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 26801,
-              "media_id": 22718131,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "鬼灭之刃",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/9d9cd5a6a48428fe2e4b6ed17025707696eab47b.png",
-              "total_count": -1,
-              "is_finish": 0,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员抢先",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 3634149,
-                  "view": 119495725,
-                  "danmaku": 1947635,
-                  "reply": 230330,
-                  "coin": 691948
-              },
-              "new_ep": {
-                  "id": 267869,
-                  "index_show": "更新至第19话",
-                  "cover": "http://i0.hdslb.com/bfs/bangumi/44f0acd1a56471290e60a6f377cdf62c27411604.jpg",
-                  "title": "19",
-                  "long_title": "火神",
-                  "pub_time": "2019-08-11 00:00:00"
-              },
-              "rating": {
-                  "score": 9.8,
-                  "count": 141968
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/da6820b316c1197cb063107deb061a3ebe58486b.png",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "大正时期，日本。心地善良的卖炭少年·炭治郎，有一天他的家人被鬼杀死了。而唯一幸存下来的妹妹——祢豆子变成了鬼。被绝望的现实打垮的炭治郎，为了寻找让妹妹变回人类的方法，决心朝着“鬼杀队”的道路前进。\n人...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 267851,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 4340,
-              "media_id": 4340,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "中二病也要谈恋爱！",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/a57b2da42518f7f496a75fd4cccae781c5346df7.jpg",
-              "total_count": 13,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 1845400,
-                  "view": 24713040,
-                  "danmaku": 2124949,
-                  "reply": 34911,
-                  "coin": 172312
-              },
-              "new_ep": {
-                  "id": 92756,
-                  "index_show": "全13话",
-                  "cover": "http://i0.hdslb.com/bfs/bangumi/1dd01fe93b6577209c43f78a36e9e2043d5d7024.jpg",
-                  "title": "13",
-                  "long_title": "闪亮的圣爆诞祭",
-                  "pub_time": "2016-07-18 15:12:20"
-              },
-              "rating": {
-                  "score": 9.6,
-                  "count": 8624
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/4011f76c9143d965b8acb8911b008d6572fca4b4.jpg",
-              "season_status": 2,
-              "season_title": "第一季",
-              "badge_ep": "",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "富㭴勇太于初中毕业的时候，决定同时为自己举办中二病毕业的仪式。打算顺利渡过高中生活的他，在开学日以最后的中二语录完全封锁这段黑历史。可惜天意弄人，勇太遇上了现任中二病患者暨同班同学小鸟游六花，更被对方...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 92744,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 4349,
-              "media_id": 4349,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "中二病也要谈恋爱！恋",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/b69a9fc2ce1c50915b3158c2f6ac51ed64101b23.jpg",
-              "total_count": 13,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 1176433,
-                  "view": 41548153,
-                  "danmaku": 1978760,
-                  "reply": 36127,
-                  "coin": 384300
-              },
-              "new_ep": {
-                  "id": 92783,
-                  "index_show": "全13话",
-                  "cover": "http://i0.hdslb.com/bfs/bangumi/a02f6a864be52aae94c2793cc5f034059dc74824.jpg",
-                  "title": "13",
-                  "long_title": "再生的･･･邪王真眼默示录",
-                  "pub_time": "2016-07-19 10:06:00"
-              },
-              "rating": {
-                  "score": 9.4,
-                  "count": 5750
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/93ae7139f19103e8ed5cd3bb8448d2383bd9d390.jpg",
-              "season_status": 2,
-              "season_title": "第二季",
-              "badge_ep": "",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "由于各种原因导致失去住所的六花开始寻找新家，但过程并不顺利，最终来到了勇太的家里。\n然而，勇太的家人却留下勇太一个人到雅加达去了。\n现在开始的同栖生活！？这样想着心跳不已的两个人。\n但此时樟叶为了迎考...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 92770,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 25733,
-              "media_id": 134932,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "青春猪头少年不会梦到兔女郎学姐",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/1cc333ff578e5ea9fded7e454953a4e2291440c2.png",
-              "total_count": 13,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员专享",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 3844520,
-                  "view": 86259704,
-                  "danmaku": 1956900,
-                  "reply": 234202,
-                  "coin": 979295
-              },
-              "new_ep": {
-                  "id": 251088,
-                  "index_show": "全13话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/fcf3a850964bea760f80945d89c800a1cf9557e8.jpg",
-                  "title": "13",
-                  "long_title": "不明之夜的黎明",
-                  "pub_time": "2018-12-27 02:50:00"
-              },
-              "rating": {
-                  "score": 9.8,
-                  "count": 83696
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/1d5dde97af4aae9ef383bb57d9a922c121392085.jpg",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "青春期症候群——这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。例如，在梓川咲太面前出现的野生兔女郎。\n她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 251076,
-              "can_watch": 1,
-              "follow_status": 3,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 25739,
-              "media_id": 139252,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "关于我转生变成史莱姆这档事",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/a4c0e0ccc44fe3949a734f546cf5bb07da925bad.png",
-              "total_count": 25,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "会员专享",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1
-              },
-              "stat": {
-                  "follow": 4830815,
-                  "view": 200093201,
-                  "danmaku": 3118197,
-                  "reply": 420974,
-                  "coin": 1138263
-              },
-              "new_ep": {
-                  "id": 277141,
-                  "index_show": "全25话",
-                  "cover": "http://i0.hdslb.com/bfs/archive/43670dfd218e455efebce12430dbeb2c8875987e.jpg",
-                  "title": "OAD02",
-                  "long_title": "外传：M的悲剧？",
-                  "pub_time": "2019-07-08 23:00:00"
-              },
-              "rating": {
-                  "score": 9.4,
-                  "count": 64077
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/8d9f5b4a566d0547bc2e3f6f733b732a09c0d3d4.jpg",
-              "season_status": 13,
-              "season_title": "TV",
-              "badge_ep": "会员",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "史莱姆生活，开始了。\n上班族的三上悟在道路上被歹徒给刺杀身亡后，回过神来发现自己转生到了异世界。\n不过，自己居然是“史莱姆”！\n他在得到利姆鲁这个名字后开始了自己的史莱姆人生，随着与各个种族相处交流的...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 250460,
-              "can_watch": 1,
-              "follow_status": 3,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 5786,
-              "media_id": 5786,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "猫咪日常",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/94b8e40429614d34374da619f0fc433e7c91a278.jpg",
-              "total_count": 12,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1,
-                  "allow_bp": 1
-              },
-              "stat": {
-                  "follow": 635549,
-                  "view": 15139864,
-                  "danmaku": 87923,
-                  "reply": 24576,
-                  "coin": 25814
-              },
-              "new_ep": {
-                  "id": 100378,
-                  "index_show": "全12话",
-                  "cover": "http://i2.hdslb.com/bfs/archive/61d6090387eeb491ae9b1248a38b67aefb290540.jpg",
-                  "title": "12",
-                  "long_title": "与猫咪们在一起",
-                  "pub_time": "2017-03-26 23:30:02"
-              },
-              "rating": {
-                  "score": 9.6,
-                  "count": 2859
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/f20633ccc8da1ca96aaad9cf814f063e9d9a3b29.jpg",
-              "season_status": 2,
-              "season_title": "TV",
-              "badge_ep": "",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "故事讲述了怕生的女孩小长井友子和她饲养的3只猫咪的日常。而这3只猫分别是撒娇高手的“玛”、淡定王“罗”、爱哭鬼“西”，她们有着人的形态，有猫耳和尾巴，会说人类语言。...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 100367,
-              "can_watch": 1,
-              "follow_status": 3,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          },
-          {
-              "season_id": 1089,
-              "media_id": 1089,
-              "season_type": 1,
-              "season_type_name": "番剧",
-              "title": "钢之炼金术师 FULLMETAL ALCHEMIST",
-              "cover": "http://i0.hdslb.com/bfs/bangumi/401f84cadca354453e338c175c25fa971b67d224.jpg",
-              "total_count": 64,
-              "is_finish": 1,
-              "is_started": 1,
-              "is_play": 1,
-              "badge": "",
-              "badge_type": 0,
-              "rights": {
-                  "allow_review": 1,
-                  "allow_bp": 1
-              },
-              "stat": {
-                  "follow": 1400406,
-                  "view": 26879191,
-                  "danmaku": 750964,
-                  "reply": 47960,
-                  "coin": 123963
-              },
-              "new_ep": {
-                  "id": 34424,
-                  "index_show": "全64话",
-                  "cover": "http://i0.hdslb.com/bfs/bangumi/895abc5dd036f3271027424b3893911e8ee7c694.jpg",
-                  "title": "64",
-                  "long_title": "旅途的尽头",
-                  "pub_time": "2011-07-02 00:52:00"
-              },
-              "rating": {
-                  "score": 9.9,
-                  "count": 44529
-              },
-              "square_cover": "http://i0.hdslb.com/bfs/bangumi/281c71aa2aabc4bc3e5064347aebf44e6fb37e76.jpg",
-              "season_status": 2,
-              "season_title": "TV",
-              "badge_ep": "",
-              "media_attr": 0,
-              "season_attr": 0,
-              "evaluate": "因思念已故的母亲，触犯炼金术中被视为最大禁忌“人体炼成”，而失去一切的兄弟──装上机械铠、有“钢之炼金术师”之称号的哥哥爱德华·艾尔利克，以及失去肉体、灵魂被固定于铠甲的弟弟阿尔冯斯·艾尔利克──两人...",
-              "areas": [
-                  {
-                      "id": 2,
-                      "name": "日本"
-                  }
-              ],
-              "subtitle": "",
-              "first_ep": 34361,
-              "can_watch": 1,
-              "follow_status": 2,
-              "is_new": 0,
-              "progress": "",
-              "both_follow": false
-          }
-      ],
-      "pn": 1,
-      "ps": 15,
-      "total": 96
-  }
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "list": [
+            {
+                "season_id": 28013,
+                "media_id": 28221412,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "流汗吧！健身少女",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/6d61112820c9604021c8f791034e542a511e355d.jpg",
+                "total_count": -1,
+                "is_finish": 0,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1,
+                    "allow_bp": 1
+                },
+                "stat": {
+                    "follow": 1099715,
+                    "view": 14402862,
+                    "danmaku": 275507,
+                    "reply": 38443,
+                    "coin": 78214
+                },
+                "new_ep": {
+                    "id": 276619,
+                    "index_show": "更新至第7话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/d845253fdec1a9e808d7e886d5d8e3bd672542a3.jpg",
+                    "title": "7",
+                    "long_title": "想成为偶像吗？",
+                    "pub_time": "2019-08-14 22:30:00"
+                },
+                "rating": {
+                    "score": 9.8,
+                    "count": 7525
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/d609f727db1cccbe4beb38ccc25ac9c453a3a76b.png",
+                "season_status": 2,
+                "season_title": "TV",
+                "badge_ep": "",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "“响……你又胖了吧？”\n朋友毫不留情的一句话，刺入爱吃的女高中生·纱仓响心中。\n她想着暑假之前绝对要瘦下来而决定减肥，却陷入一个人无法好好持续运动的窘境。\n为此而苦恼的响，前往的地方是健身房！\n她在入...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 276613,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 28016,
+                "media_id": 28221415,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "女高中生的虚度日常",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/97007f464a9511abdbf8bf938c01dcdbaab151e0.jpg",
+                "total_count": -1,
+                "is_finish": 0,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员抢先",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 1345585,
+                    "view": 15455096,
+                    "danmaku": 378303,
+                    "reply": 37784,
+                    "coin": 95171
+                },
+                "new_ep": {
+                    "id": 276686,
+                    "index_show": "更新至第7话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/982bd82870db09148571bdc8c4d199537eca779a.jpg",
+                    "title": "7",
+                    "long_title": "有病",
+                    "pub_time": "2019-08-16 22:00:00"
+                },
+                "rating": {
+                    "score": 9.8,
+                    "count": 14135
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/a4205c4fb8388476906a769e631d14d3f9e205d4.png",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "被浪费的青春——\n偏差值差不多的田中（通称“笨蛋”）、沉迷于BL的菊池（通称：“御宅”）、面无表情的才女・鹭宫（通称“机器人”）。个性十足的女高中生们无所事事的日常校园生活——...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 276680,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 25823,
+                "media_id": 140252,
+                "season_type": 4,
+                "season_type_name": "国创",
+                "title": "画江湖之不良人 第三季",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/8f19c704a6516bab4716931db10621c1b6c6e4bf.jpg",
+                "total_count": 40,
+                "is_finish": 0,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员抢先",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1,
+                    "allow_preview": 1
+                },
+                "stat": {
+                    "follow": 632336,
+                    "view": 36497591,
+                    "danmaku": 445945,
+                    "reply": 68281,
+                    "coin": 91462
+                },
+                "new_ep": {
+                    "id": 280817,
+                    "index_show": "更新至第32话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/27e09a95acafb3b4ac4a8baf200210fde303ed3c.png",
+                    "title": "32",
+                    "long_title": "李茂贞",
+                    "pub_time": "2019-08-15 12:00:00"
+                },
+                "rating": {
+                    "score": 8.6,
+                    "count": 4835
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/67a851a5cd87fef2ddd6f9bd6cf691781a1d8b95.jpg",
+                "season_status": 13,
+                "season_title": "第三季",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "《画江湖之不良人》第三季侠影归来，再现唐末乱世风云！王者弈天下 大唐生死局！\n乾陵被毁、龙泉宝藏下落不明，前朝皇子李星云欲归隐山林，不良帅决心挟天子以令诸侯，号召江湖各大势力复辟大唐，王道与霸道将在这...",
+                "areas": [
+                    {
+                        "id": 1,
+                        "name": "中国大陆"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 253576,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 26875,
+                "media_id": 24097891,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "CAROLE & TUESDAY",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/2e4708eb1fe628c23d09e570839f9ef484f0ca2e.png",
+                "total_count": -1,
+                "is_finish": 0,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员抢先",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 1916671,
+                    "view": 40373004,
+                    "danmaku": 678327,
+                    "reply": 104302,
+                    "coin": 375686
+                },
+                "new_ep": {
+                    "id": 269584,
+                    "index_show": "更新至第17话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/0ecea5ccc045b2f7d32c2e729f67d85d143ecd19.jpg",
+                    "title": "17",
+                    "long_title": "Head Over Heels",
+                    "pub_time": "2019-08-15 04:30:00"
+                },
+                "rating": {
+                    "score": 9.8,
+                    "count": 68084
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/826153e521ace94f60016a2a0fadb22256167cf3.jpg",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "距离人类移居到新的基地火星已经过了50年。这个时代中大多数的文化均由AI创造，人类只需要享受即可。\n有一位少女，生活在首都阿尔巴市，在工作之余的空闲时间里想努力成为一名音乐家，但她总感觉缺少些什么，她...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 267692,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 25681,
+                "media_id": 135652,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "JOJO的奇妙冒险 黄金之风",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/f34ff3975c39913af936c133ae60a5891babba08.png",
+                "total_count": 42,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员专享",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 2480531,
+                    "view": 178191227,
+                    "danmaku": 2037686,
+                    "reply": 700330,
+                    "coin": 751216
+                },
+                "new_ep": {
+                    "id": 275717,
+                    "index_show": "全42话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/39c4c078be0700aa4e312aa62402c6b6a7655ac7.jpg",
+                    "title": "39",
+                    "long_title": "沉睡的奴隶",
+                    "pub_time": "2019-07-28 20:30:00"
+                },
+                "rating": {
+                    "score": 9.9,
+                    "count": 153177
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/9af6bb684c8650578c1f5f435b57cd4ea1cba952.jpg",
+                "season_status": 13,
+                "season_title": "第五部",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "住在意大利那不勒斯的青年乔鲁诺·乔巴纳，是继承了乔斯达家宿敌·DIO之血脉的儿子。 \n幼年时遭受迫害而自暴自弃的他，由于拯救了一名黑帮男子，而学到了“相信他人”。不忘恩义、带着敬意对待自己的黑帮，让他...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 250611,
+                "can_watch": 1,
+                "follow_status": 3,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 26284,
+                "media_id": 4316482,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "盾之勇者成名录",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/de944b7c9306932d8dd3dcaeaf2eeec8670deec5.png",
+                "total_count": 25,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员专享",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 3171436,
+                    "view": 147240957,
+                    "danmaku": 2567286,
+                    "reply": 434365,
+                    "coin": 805493
+                },
+                "new_ep": {
+                    "id": 259698,
+                    "index_show": "全25话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/b284f02214629786135fb242d521266a51667bb0.jpg",
+                    "title": "25",
+                    "long_title": "盾之勇者成名录",
+                    "pub_time": "2019-06-26 22:00:00"
+                },
+                "rating": {
+                    "score": 7.2,
+                    "count": 196126
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/f02cf4282f5dec97d96c8b6afc4301f6bb831cc6.jpg",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "极为平凡的御宅族大学生·岩谷尚文，受到在图书馆发现的一本书所引导，被召唤到了异世界。他被赋予的使命，是作为装备着剑、枪、弓、盾的四圣勇者之一“盾之勇者”，驱逐给世界带来混沌的灾害“波”。因为大冒险而心...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 259674,
+                "can_watch": 1,
+                "follow_status": 3,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 26794,
+                "media_id": 22503880,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "贤者之孙",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/d1f2baf4ea8217dd89d1aa3e45a75301b345b306.png",
+                "total_count": 12,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员专享",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 1923256,
+                    "view": 54009416,
+                    "danmaku": 722730,
+                    "reply": 99388,
+                    "coin": 176091
+                },
+                "new_ep": {
+                    "id": 267691,
+                    "index_show": "全12话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/6dfb535dd2a1b2223fdace5782eeffa9c067ac77.jpg",
+                    "title": "12",
+                    "long_title": "然后，向着世界…",
+                    "pub_time": "2019-06-26 23:30:00"
+                },
+                "rating": {
+                    "score": 6.7,
+                    "count": 46499
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/00edf581880f15117dcc8f2b5e16e48d4a8fdd38.jpg",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "因意外过世的青年，转生到剑与魔法世界──强到破天荒!!!?\n理应意外身亡的青年，以婴儿姿态转世到了异世界!? 接着他被称为「贤者」的男人──梅林捡回家收养，取名为「西恩」。\n西恩在贤者身边学习魔法，并...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 267680,
+                "can_watch": 1,
+                "follow_status": 3,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 6422,
+                "media_id": 6422,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "黑色四叶草",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/c345335f3cc395f7cfbe7e7e0a4913f9b1671fe2.jpg",
+                "total_count": 0,
+                "is_finish": 0,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员专享",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 1078000,
+                    "view": 50216130,
+                    "danmaku": 649795,
+                    "reply": 120339,
+                    "coin": 153117
+                },
+                "new_ep": {
+                    "id": 280783,
+                    "index_show": "更新至第96话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/29f6b5c657ed920ad3835589dba44db1bc10a3a7.jpg",
+                    "title": "96",
+                    "long_title": "黑色暴牛团长VS深红的野蔷薇",
+                    "pub_time": "2019-08-13 18:25:06"
+                },
+                "rating": {
+                    "score": 8.4,
+                    "count": 17258
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/1d703634cd3ee35b625bf882f27289db301cae63.jpg",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 114966,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 26801,
+                "media_id": 22718131,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "鬼灭之刃",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/9d9cd5a6a48428fe2e4b6ed17025707696eab47b.png",
+                "total_count": -1,
+                "is_finish": 0,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员抢先",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 3634149,
+                    "view": 119495725,
+                    "danmaku": 1947635,
+                    "reply": 230330,
+                    "coin": 691948
+                },
+                "new_ep": {
+                    "id": 267869,
+                    "index_show": "更新至第19话",
+                    "cover": "http://i0.hdslb.com/bfs/bangumi/44f0acd1a56471290e60a6f377cdf62c27411604.jpg",
+                    "title": "19",
+                    "long_title": "火神",
+                    "pub_time": "2019-08-11 00:00:00"
+                },
+                "rating": {
+                    "score": 9.8,
+                    "count": 141968
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/da6820b316c1197cb063107deb061a3ebe58486b.png",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "大正时期，日本。心地善良的卖炭少年·炭治郎，有一天他的家人被鬼杀死了。而唯一幸存下来的妹妹——祢豆子变成了鬼。被绝望的现实打垮的炭治郎，为了寻找让妹妹变回人类的方法，决心朝着“鬼杀队”的道路前进。\n人...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 267851,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 4340,
+                "media_id": 4340,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "中二病也要谈恋爱！",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/a57b2da42518f7f496a75fd4cccae781c5346df7.jpg",
+                "total_count": 13,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 1845400,
+                    "view": 24713040,
+                    "danmaku": 2124949,
+                    "reply": 34911,
+                    "coin": 172312
+                },
+                "new_ep": {
+                    "id": 92756,
+                    "index_show": "全13话",
+                    "cover": "http://i0.hdslb.com/bfs/bangumi/1dd01fe93b6577209c43f78a36e9e2043d5d7024.jpg",
+                    "title": "13",
+                    "long_title": "闪亮的圣爆诞祭",
+                    "pub_time": "2016-07-18 15:12:20"
+                },
+                "rating": {
+                    "score": 9.6,
+                    "count": 8624
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/4011f76c9143d965b8acb8911b008d6572fca4b4.jpg",
+                "season_status": 2,
+                "season_title": "第一季",
+                "badge_ep": "",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "富㭴勇太于初中毕业的时候，决定同时为自己举办中二病毕业的仪式。打算顺利渡过高中生活的他，在开学日以最后的中二语录完全封锁这段黑历史。可惜天意弄人，勇太遇上了现任中二病患者暨同班同学小鸟游六花，更被对方...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 92744,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 4349,
+                "media_id": 4349,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "中二病也要谈恋爱！恋",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/b69a9fc2ce1c50915b3158c2f6ac51ed64101b23.jpg",
+                "total_count": 13,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 1176433,
+                    "view": 41548153,
+                    "danmaku": 1978760,
+                    "reply": 36127,
+                    "coin": 384300
+                },
+                "new_ep": {
+                    "id": 92783,
+                    "index_show": "全13话",
+                    "cover": "http://i0.hdslb.com/bfs/bangumi/a02f6a864be52aae94c2793cc5f034059dc74824.jpg",
+                    "title": "13",
+                    "long_title": "再生的･･･邪王真眼默示录",
+                    "pub_time": "2016-07-19 10:06:00"
+                },
+                "rating": {
+                    "score": 9.4,
+                    "count": 5750
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/93ae7139f19103e8ed5cd3bb8448d2383bd9d390.jpg",
+                "season_status": 2,
+                "season_title": "第二季",
+                "badge_ep": "",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "由于各种原因导致失去住所的六花开始寻找新家，但过程并不顺利，最终来到了勇太的家里。\n然而，勇太的家人却留下勇太一个人到雅加达去了。\n现在开始的同栖生活！？这样想着心跳不已的两个人。\n但此时樟叶为了迎考...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 92770,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 25733,
+                "media_id": 134932,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "青春猪头少年不会梦到兔女郎学姐",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/1cc333ff578e5ea9fded7e454953a4e2291440c2.png",
+                "total_count": 13,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员专享",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 3844520,
+                    "view": 86259704,
+                    "danmaku": 1956900,
+                    "reply": 234202,
+                    "coin": 979295
+                },
+                "new_ep": {
+                    "id": 251088,
+                    "index_show": "全13话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/fcf3a850964bea760f80945d89c800a1cf9557e8.jpg",
+                    "title": "13",
+                    "long_title": "不明之夜的黎明",
+                    "pub_time": "2018-12-27 02:50:00"
+                },
+                "rating": {
+                    "score": 9.8,
+                    "count": 83696
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/1d5dde97af4aae9ef383bb57d9a922c121392085.jpg",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "青春期症候群——这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。例如，在梓川咲太面前出现的野生兔女郎。\n她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 251076,
+                "can_watch": 1,
+                "follow_status": 3,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 25739,
+                "media_id": 139252,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "关于我转生变成史莱姆这档事",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/a4c0e0ccc44fe3949a734f546cf5bb07da925bad.png",
+                "total_count": 25,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "会员专享",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1
+                },
+                "stat": {
+                    "follow": 4830815,
+                    "view": 200093201,
+                    "danmaku": 3118197,
+                    "reply": 420974,
+                    "coin": 1138263
+                },
+                "new_ep": {
+                    "id": 277141,
+                    "index_show": "全25话",
+                    "cover": "http://i0.hdslb.com/bfs/archive/43670dfd218e455efebce12430dbeb2c8875987e.jpg",
+                    "title": "OAD02",
+                    "long_title": "外传：M的悲剧？",
+                    "pub_time": "2019-07-08 23:00:00"
+                },
+                "rating": {
+                    "score": 9.4,
+                    "count": 64077
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/8d9f5b4a566d0547bc2e3f6f733b732a09c0d3d4.jpg",
+                "season_status": 13,
+                "season_title": "TV",
+                "badge_ep": "会员",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "史莱姆生活，开始了。\n上班族的三上悟在道路上被歹徒给刺杀身亡后，回过神来发现自己转生到了异世界。\n不过，自己居然是“史莱姆”！\n他在得到利姆鲁这个名字后开始了自己的史莱姆人生，随着与各个种族相处交流的...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 250460,
+                "can_watch": 1,
+                "follow_status": 3,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 5786,
+                "media_id": 5786,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "猫咪日常",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/94b8e40429614d34374da619f0fc433e7c91a278.jpg",
+                "total_count": 12,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1,
+                    "allow_bp": 1
+                },
+                "stat": {
+                    "follow": 635549,
+                    "view": 15139864,
+                    "danmaku": 87923,
+                    "reply": 24576,
+                    "coin": 25814
+                },
+                "new_ep": {
+                    "id": 100378,
+                    "index_show": "全12话",
+                    "cover": "http://i2.hdslb.com/bfs/archive/61d6090387eeb491ae9b1248a38b67aefb290540.jpg",
+                    "title": "12",
+                    "long_title": "与猫咪们在一起",
+                    "pub_time": "2017-03-26 23:30:02"
+                },
+                "rating": {
+                    "score": 9.6,
+                    "count": 2859
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/f20633ccc8da1ca96aaad9cf814f063e9d9a3b29.jpg",
+                "season_status": 2,
+                "season_title": "TV",
+                "badge_ep": "",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "故事讲述了怕生的女孩小长井友子和她饲养的3只猫咪的日常。而这3只猫分别是撒娇高手的“玛”、淡定王“罗”、爱哭鬼“西”，她们有着人的形态，有猫耳和尾巴，会说人类语言。...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 100367,
+                "can_watch": 1,
+                "follow_status": 3,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            },
+            {
+                "season_id": 1089,
+                "media_id": 1089,
+                "season_type": 1,
+                "season_type_name": "番剧",
+                "title": "钢之炼金术师 FULLMETAL ALCHEMIST",
+                "cover": "http://i0.hdslb.com/bfs/bangumi/401f84cadca354453e338c175c25fa971b67d224.jpg",
+                "total_count": 64,
+                "is_finish": 1,
+                "is_started": 1,
+                "is_play": 1,
+                "badge": "",
+                "badge_type": 0,
+                "rights": {
+                    "allow_review": 1,
+                    "allow_bp": 1
+                },
+                "stat": {
+                    "follow": 1400406,
+                    "view": 26879191,
+                    "danmaku": 750964,
+                    "reply": 47960,
+                    "coin": 123963
+                },
+                "new_ep": {
+                    "id": 34424,
+                    "index_show": "全64话",
+                    "cover": "http://i0.hdslb.com/bfs/bangumi/895abc5dd036f3271027424b3893911e8ee7c694.jpg",
+                    "title": "64",
+                    "long_title": "旅途的尽头",
+                    "pub_time": "2011-07-02 00:52:00"
+                },
+                "rating": {
+                    "score": 9.9,
+                    "count": 44529
+                },
+                "square_cover": "http://i0.hdslb.com/bfs/bangumi/281c71aa2aabc4bc3e5064347aebf44e6fb37e76.jpg",
+                "season_status": 2,
+                "season_title": "TV",
+                "badge_ep": "",
+                "media_attr": 0,
+                "season_attr": 0,
+                "evaluate": "因思念已故的母亲，触犯炼金术中被视为最大禁忌“人体炼成”，而失去一切的兄弟──装上机械铠、有“钢之炼金术师”之称号的哥哥爱德华·艾尔利克，以及失去肉体、灵魂被固定于铠甲的弟弟阿尔冯斯·艾尔利克──两人...",
+                "areas": [
+                    {
+                        "id": 2,
+                        "name": "日本"
+                    }
+                ],
+                "subtitle": "",
+                "first_ep": 34361,
+                "can_watch": 1,
+                "follow_status": 2,
+                "is_new": 0,
+                "progress": "",
+                "both_follow": false
+            }
+        ],
+        "pn": 1,
+        "ps": 15,
+        "total": 96
+    }
 }
