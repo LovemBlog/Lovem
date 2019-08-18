@@ -23,7 +23,7 @@ $this->need('header.php'); ?>
     pn = 1,
     ps = 15,
     total = 0;
-    $.get("/bilibili-api/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=21&vmid=33144699&ts=1566026348296",function(res,status){
+    $.get("/bilibiliApi/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=21&vmid=33144699&ts=1566026348296",function(res,status){
       if (res.code === 0) {
         listData = res.data.list
         pn = res.data.pn
