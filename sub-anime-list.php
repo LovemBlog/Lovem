@@ -32,7 +32,7 @@ $this->need('header.php'); ?>
         fillData(listData)
         generatePagination(pn, ps, total)
       }
-    }, dataType: 'json')
+    }, 'json')
   }
   function fillData (list) {
     var str = '',
