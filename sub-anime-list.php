@@ -5,19 +5,32 @@
  * @package custom
  */
 $this->need('header.php'); ?>
-    <div id="body">
-        <div class="container">
-            <div class="title-with-vertical-line sub-title">我的B站追番列表</div>
-            <div class="sub-list-container">
-            </div> 
-            <div class="pagination">
-              PS：只展示一页信息
-            </div>
-        </div>
-    </div>
+  <div class="title-with-vertical-line sub-title">我的B站追番列表</div>
+  <div class="sub-list-container"></div> 
+  <div class="pagination">PS：只展示一页信息</div>
 <?php $this->need('footer.php'); ?>
+<?php
+  $json_string = file_get_contents('https://api.bilibili.com/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=21&vmid=33144699&ts=1566026348296'); 
+  $data = json_decode($json_string);
+  $list = $data->data->list;
+  $str = '';
+  $num = count($list);
+  for ($i = 0; $i < $num; $i++) {
+    $ss = $list[$i]->season_id;
+    $cover = $list[$i]->cover;
+    $title = $list[$i]->title;
+    $evaluate = $list[$i]->evaluate;
+    $season_type_name = $list[$i]->season_type_name;
+    $area = $list[$i]->areas[0]->name;
+    $new_ep = $list[$i]->new_ep->title;
+    $index_show = $list[$i]->new_ep->index_show;
+    $str .= "<a class='sub-item' href='https://www.bilibili.com/bangumi/play/ss$ss/' target='_blank'><div class='img-box'><img referrer='no-referrer|origin|unsafe-url' src='$cover@220w_280h.webp' alt=''><span></span></div><div class='sub-info'><div class='name ellipsis'>$title</div><div class='desc ellipsis-2lines'>$evaluate</div><div class='channel'><span>$season_type_name </span><i></i><span>$area</span></div><div class='progress'><span>看到第$new_ep 话 </span><i></i><span>$index_show</span></div></div></a>";
+  };
+  $str = preg_replace('/\\n*/', '', $str);
+  echo "<script> var container = jQuery('.sub-list-container'); if (container) { container.append(\"$str\") }</script>";
+?>
 <script>
-  getSubList()
+  // getSubList()
   function getSubList () {
     var listData = [],
     pn = 1,
