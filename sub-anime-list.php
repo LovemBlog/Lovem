@@ -8,6 +8,7 @@ $this->need('header.php'); ?>
   <div class="title-with-vertical-line sub-title">我的B站追番列表</div>
   <div class="sub-list-container"></div> 
   <div class="pagination">PS：只展示正在追番的第一页信息</div>
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
 <?php
   $opts = array(
