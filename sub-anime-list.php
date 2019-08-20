@@ -10,7 +10,16 @@ $this->need('header.php'); ?>
   <div class="pagination">PS：只展示一页信息</div>
 <?php $this->need('footer.php'); ?>
 <?php
-  $json_string = file_get_contents('https://api.bilibili.com/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=21&vmid=33144699&ts=1566026348296'); 
+  $opts = array(
+    'http'=>array(
+      'method'=>"GET",
+      'header'=>"Accept-language: en\r\n" .
+                "Cookie: SESSDATA=2e6c0ed8%2C1568913650%2Ca122c781\r\n"
+    )
+  );
+
+  $context = stream_context_create($opts);
+  $json_string = file_get_contents('https://api.bilibili.com/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=21&vmid=33144699&ts=1566026348296', false, $context); 
   $data = json_decode($json_string);
   $list = $data->data->list;
   $str = '';
@@ -22,66 +31,10 @@ $this->need('header.php'); ?>
     $evaluate = $list[$i]->evaluate;
     $season_type_name = $list[$i]->season_type_name;
     $area = $list[$i]->areas[0]->name;
-    $new_ep = $list[$i]->new_ep->title;
+    $progress = $list[$i]->progress;
     $index_show = $list[$i]->new_ep->index_show;
-    $str .= "<a class='sub-item' href='https://www.bilibili.com/bangumi/play/ss$ss/' target='_blank'><div class='img-box'><img referrer='no-referrer|origin|unsafe-url' src='$cover@220w_280h.webp' alt=''><span></span></div><div class='sub-info'><div class='name ellipsis'>$title</div><div class='desc ellipsis-2lines'>$evaluate</div><div class='channel'><span>$season_type_name </span><i></i><span>$area</span></div><div class='progress'><span>看到第$new_ep 话 </span><i></i><span>$index_show</span></div></div></a>";
+    $str .= "<a class='sub-item' href='https://www.bilibili.com/bangumi/play/ss$ss/' target='_blank'><div class='img-box'><img referrer='no-referrer|origin|unsafe-url' src='$cover@220w_280h.webp' alt=''><span></span></div><div class='sub-info'><div class='name ellipsis'>$title</div><div class='desc ellipsis-2lines'>$evaluate</div><div class='channel'><span>$season_type_name </span><i>&nbsp;&nbsp;</i><span>$area</span></div><div class='progress'><span>$progress </span><i>&nbsp;&nbsp;</i><span>$index_show</span></div></div></a>";
   };
   $str = preg_replace('/\\n*/', '', $str);
   echo "<script> var container = jQuery('.sub-list-container'); if (container) { container.append(\"$str\") }</script>";
 ?>
-<script>
-  // getSubList()
-  function getSubList () {
-    var listData = [],
-    pn = 1,
-    ps = 15,
-    total = 0;
-    $.get("/bilibiliApi/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=21&vmid=33144699&ts=1566026348296",function(res,status){
-      if (res.code === 0) {
-        listData = res.data.list
-        pn = res.data.pn
-        ps = res.data.ps
-        total = res.data.total
-        fillData(listData)
-        generatePagination(pn, ps, total)
-      }
-    }, 'json')
-  }
-  function fillData (list) {
-    var str = '',
-    timestamp = new Date().getTime();
-    for (var i = 0; i < list.length; i++) {
-      let item = list[i]
-      str = str + 
-      `<a class="sub-item" href="https://www.bilibili.com/bangumi/play/ss${item.season_id}/" target="_blank">
-        <div class="img-box">
-          <img referrer="no-referrer|origin|unsafe-url" src="${item.cover}@220w_280h.webp" alt="">
-          <span></span>
-        </div>
-        <div class="sub-info">
-          <div class="name ellipsis">${item.title}</div>
-          <div class="desc ellipsis-2lines">${item.evaluate}</div>
-          <div class="channel">
-            <span>${item.season_type_name}</span>
-            <i></i>
-            <span>${item.areas[0].name}</span>
-          </div>
-          <div class="progress">
-            <span>看到第${item.new_ep.title}话 </span>
-            <i></i>
-            <span>${item.new_ep.index_show}</span>
-          </div>
-        </div>
-      </a>`
-    }
-    console.log(str)
-    let subListEle = $('.sub-list-container')
-    console.log(subListEle)
-    if (subListEle) {
-      subListEle.append(str)
-    }
-  }
-  function generatePagination (pn, ps, total) {
-    if (total < ps) return
-  }
-</script>
