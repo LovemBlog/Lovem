@@ -35,7 +35,7 @@ $this->need('header.php'); ?>
     $progress = $list[$i]->progress;
     $progress = $progress === '' ? '尚未观看' : $progress;
     $index_show = $list[$i]->new_ep->index_show;
-    $str .= "<a class='sub-item' href='https://www.bilibili.com/bangumi/play/ss$ss/' target='_blank'><div class='img-box'><img referrer='no-referrer|origin|unsafe-url' src='$cover@220w_280h.webp' alt=''><span></span></div><div class='sub-info'><div class='name ellipsis'>$title</div><div class='desc ellipsis-2lines'>$evaluate</div><div class='channel'><span>$season_type_name </span><i>&nbsp;&nbsp;</i><span>$area</span></div><div class='progress'><span>$progress </span><i>&nbsp;&nbsp;</i><span>$index_show</span></div></div></a>";
+    $str .= "<a class='sub-item' href='https://www.bilibili.com/bangumi/play/ss$ss/' target='_blank'><div class='img-box'><img referrerPolicy='no-referrer' src='$cover@220w_280h.webp' alt=''><span></span></div><div class='sub-info'><div class='name ellipsis'>$title</div><div class='desc ellipsis-2lines'>$evaluate</div><div class='channel'><span>$season_type_name </span><i>&nbsp;&nbsp;</i><span>$area</span></div><div class='progress'><span>$progress </span><i>&nbsp;&nbsp;</i><span>$index_show</span></div></div></a>";
   };
   $str = preg_replace('/\\n*/', '', $str);
   echo "<script> var container = jQuery('.sub-list-container'); if (container) { container.append(\"$str\") }</script>";
