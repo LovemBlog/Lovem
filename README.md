@@ -9,5 +9,6 @@ Lovem
 以 Typecho 驱动的博客主题
 
 ## 项目图片展示
+![项目图片展示](./screenshot.png)
 
 ## [博客在线地址](http://blog.lovem.fun)
