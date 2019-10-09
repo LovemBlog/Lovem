@@ -15,7 +15,7 @@ $this->need('header.php'); ?>
     'http'=>array(
       'method'=>"GET",
       'header'=>"Accept-language: en\r\n" .
-                "Cookie: SESSDATA=2e6c0ed8%2C1568913650%2Ca122c781\r\n"
+                "Cookie: SESSDATA=f71d6fc8%2C1571590212%2C307adb91\r\n"
     )
   );
 
