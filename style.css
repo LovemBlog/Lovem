@@ -33,7 +33,7 @@ a:active {
 pre,
 code {
   font-family: Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
-  font-size: .92857em;
+  font-size: 0.92857em;
 }
 code {
   padding: 2px 4px;
@@ -42,6 +42,9 @@ code {
 pre {
   overflow: auto;
   max-height: 400px;
+  padding: 10px 10px 10px 30px;
+  background-color: #333333;
+  white-space: pre-wrap;
 }
 pre code {
   padding: 3px;
@@ -136,7 +139,7 @@ textarea {
   max-height: 64px;
 }
 .description {
-  margin: .5em 0 0;
+  margin: 0.5em 0 0;
   color: #999;
   font-style: italic;
 }
@@ -201,14 +204,14 @@ textarea {
   border-bottom: 1px solid #EEE;
 }
 .post-title {
-  margin: .83em 0;
+  margin: 0.83em 0;
   font-size: 1.4em;
 }
 .post-meta {
   margin-top: -0.5em;
   padding: 0;
   color: #999;
-  font-size: .92857em;
+  font-size: 0.92857em;
 }
 .post-meta li {
   display: inline-block;
@@ -306,11 +309,11 @@ textarea {
 }
 .comment-list li .comment-reply {
   text-align: right;
-  font-size: .92857em;
+  font-size: 0.92857em;
 }
 .comment-meta a {
   color: #999;
-  font-size: .92857em;
+  font-size: 0.92857em;
 }
 .comment-author {
   display: block;
@@ -333,11 +336,11 @@ textarea {
 .respond .cancel-comment-reply {
   float: right;
   margin-top: 15px;
-  font-size: .92857em;
+  font-size: 0.92857em;
 }
 #comment-form label {
   display: block;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-weight: bold;
 }
 #comment-form .required:after {
@@ -527,23 +530,21 @@ img.alignright {
   visibility: hidden;
 }
 /* 代码滚动条样式 */
-pre::-webkit-scrollbar,
-code::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 4px;
   height: 4px;
 }
-pre::-webkit-scrollbar-thumb,
-code::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   border-radius: 2px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   background: rgba(0, 0, 0, 0.2);
 }
-pre::-webkit-scrollbar-track code::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 0;
   background: rgba(0, 0, 0, 0.1);
 }
-pre::-webkit-input-placeholder code::-webkit-input-placeholder {
+::-webkit-input-placeholder {
   font-size: 12px;
   color: #C9C9C9;
 }

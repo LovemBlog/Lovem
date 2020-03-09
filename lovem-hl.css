@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+/** markdown source **/
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property
+{
+    color: #cebcca;
+}
+
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
+    border-left: 3px solid #b8bfc6;
+}
+
+.cm-s-typora-default .cm-comment {
+    color: #9FB1FF;
+}
+
+.cm-s-typora-default .cm-string {
+    color: #A7A7D9
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+    color: #848695;
+    font-style: italic;
+}
+
+.cm-s-typora-default .cm-link {
+    color: #95B94B;
+}
+
+.cm-s-typora-default .CodeMirror-activeline-background {
+    background: rgba(51, 51, 51, 0.72);
+}
+
+.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
+	color: #8aa1e1;
+}
+
+/** code highlight */
+
+.hljs-variable,
+.hljs-operator,
+.hljs-property {
+    color: #b8bfc6;
+}
+
+.hljs-keyword {
+    color: #C88FD0;
+}
+
+.hljs-tag {
+    color: #7DF46A;
+}
+
+.hljs-attribute {
+    color: #7575E4;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #b8bfc6;
+    z-index: 3;
+}
+
+.hljs-string {
+    color: #D26B6B;
+}
+
+.hljs-comment,
+hljs-comment {
+    color: #DA924A;
+}
+
+.hljs-header,
+.hljs-def,
+hljs-header,
+hljs-def {
+    color: #8d8df0;
+}
+
+.hljs-quote,
+hljs-quote {
+    color: #57ac57;
+}
+
+.hljs-hr {
+    color: #d8d5d5;
+}
+
+.hljs-link {
+    color: #d3d3ef;
+}
+
+.hljs-negative {
+    color: #d95050;
+}
+
+.hljs-positive {
+    color: #50e650;
+}
+
+.hljs-string-2 {
+    color: #f50;
+}
+
+.hljs-meta,
+.hljs-qualifier {
+    color: #b7b3b3;
+}
+
+.hljs-builtin {
+    color: #f3b3f8;
+}
+
+.hljs-bracket {
+    color: #997;
+}
+
+.hljs-atom,
+hljs-atom {
+    color: #84B6CB;
+}
+
+.hljs-number {
+    color: #64AB8F;
+}
+
+.hljs-variable {
+    color: #b8bfc6;
+}
+
+.hljs-variable-2 {
+    color: #9FBAD5;
+}
+
+.hljs-variable-3 {
+    color: #1cc685;
+}
+
+.CodeMirror-selectedtext,
+.CodeMirror-selected {
+    background: #4a89dc;
+    color: #fff !important;
+    text-shadow: none;
+}
+
+.CodeMirror-gutters {
+    border-right: none;
+}

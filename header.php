@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.12.0/styles/paraiso-dark.min.css">
+    <!-- <link rel="stylesheet" href="<?php $this->options->themeUrl('lovem-hl.css'); ?>"> -->
+    <style>
+        .hljs {
+            background-color: rgb(51, 51, 51);
+        }
+    </style>
 
     <!--[if lt IE 9]>
     <script src="//cdnjscn.b0.upaiyun.com/libs/html5shiv/r29/html5.min.js"></script>
