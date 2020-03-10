@@ -11,11 +11,12 @@ $this->need('header.php'); ?>
 <?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
 <?php
+  $sessData = $this->options->bilibiliCookie;
   $opts = array(
     'http'=>array(
       'method'=>"GET",
       'header'=>"Accept-language: en\r\n" .
-                "Cookie: SESSDATA=f71d6fc8%2C1571590212%2C307adb91\r\n"
+                "Cookie: SESSDATA=" . $sessData . "\r\n"
     )
   );
 
