@@ -4,8 +4,11 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 function themeConfig($form) {
     $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('站点 LOGO 地址'), _t('在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO'));
     $form->addInput($logoUrl);
+
     $bilibiliCookie = new Typecho_Widget_Helper_Form_Element_Text('bilibiliCookie', NULL, NULL, _t('Bilibili Cookie SESSDATA：'), _t('追番列表需要设置的cookie值'));
     $form->addInput($bilibiliCookie);
+    $bilibiliId = new Typecho_Widget_Helper_Form_Element_Text('bilibiliId', NULL, NULL, _t('Bilibili ID：'), _t('追番列表需要设置的Bilibili用户ID'));
+    $form->addInput($bilibiliId);
     
     $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
     array('ShowRecentPosts' => _t('显示最新文章'),

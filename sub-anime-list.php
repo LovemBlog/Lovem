@@ -12,6 +12,7 @@ $this->need('header.php'); ?>
 <?php $this->need('footer.php'); ?>
 <?php
   $sessData = $this->options->bilibiliCookie;
+  $vmid = $this->options->bilibiliId;
   $opts = array(
     'http'=>array(
       'method'=>"GET",
@@ -21,7 +22,7 @@ $this->need('header.php'); ?>
   );
 
   $context = stream_context_create($opts);
-  $json_string = file_get_contents('https://api.bilibili.com/x/space/bangumi/follow/list?type=1&follow_status=2&pn=1&ps=21&vmid=33144699&ts=1566026348296', false, $context); 
+  $json_string = file_get_contents('https://api.bilibili.com/x/space/bangumi/follow/list?type=1&follow_status=2&pn=1&ps=21&vmid=' . $vmid .'&ts=1566026348296', false, $context); 
   $data = json_decode($json_string);
   $list = $data->data->list;
   $str = '';
