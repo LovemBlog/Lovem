@@ -577,6 +577,42 @@ button,
   -ms-user-select: none;
   user-select: none;
 }
+/* 后加的公共样式 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 二行超出省略 */
+.ellipsis-2lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/* 带竖线的标题 */
+.title-with-vertical-line {
+  position: relative;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 20px 0 0;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  box-sizing: border-box;
+}
+.title-with-vertical-line:before {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  content: '';
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+}
 /* 追番列表相关样式 */
 .sub-list-container {
   box-sizing: border-box;
@@ -632,39 +668,119 @@ button,
 .pagination {
   text-align: center;
 }
-/* 后加的公共样式 */
-.ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-/* 二行超出省略 */
-.ellipsis-2lines {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-/* 带竖线的标题 */
-.title-with-vertical-line {
-  position: relative;
+/* 友情链接 */
+.Lovem-friends-page {
   width: 100%;
-  padding-left: 20px;
-  font-size: 20px;
-  line-height: 20px;
-  margin: 20px 0 0;
-  font-weight: bold;
-  color: #fff;
-  text-align: left;
-  box-sizing: border-box;
+  display: flex;
+  padding-top: 30px;
 }
-.title-with-vertical-line:before {
-  position: absolute;
-  left: 0;
-  top: 0px;
-  content: '';
-  width: 4px;
-  height: 100%;
-  background-color: #fff;
+.Lovem-friends-page .box {
+  border: 1px solid #999;
+  border-radius: 6px;
+}
+.Lovem-friends-page .friends-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.Lovem-friends-page .friends-list .friend-item {
+  position: relative;
+  width: 60%;
+  height: 60px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+.Lovem-friends-page .friends-list .friend-item:hover {
+  transform: scale(1.1);
+}
+.Lovem-friends-page .friends-list .friend-item .logo-box {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.Lovem-friends-page .friends-list .friend-item .logo-box img {
+  width: 100%;
+}
+.Lovem-friends-page .friends-list .friend-item .friend-info {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.Lovem-friends-page .friends-list .friend-item .friend-info .name {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+.Lovem-friends-page .friends-list .friend-item .friend-info .desc {
+  font-size: 14px;
+  color: #666;
+}
+.Lovem-friends-page .notice-box {
+  flex-shrink: 0;
+  margin-left: 30px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.Lovem-friends-page .notice-box .title {
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #fff;
+  color: #fff;
+  text-align: center;
+}
+.Lovem-friends-page .notice-box .notice-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ccc;
+}
+.Lovem-friends-page .notice-box .notice-item:last-child {
+  margin-bottom: 0;
+}
+/* 关于 */
+.Lovem-about-page {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Lovem-about-page .avatar-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.Lovem-about-page .avatar-box:hover {
+  transform: scale(1.1);
+}
+.Lovem-about-page .avatar-box img {
+  width: 100%;
+}
+.Lovem-about-page .link-me .link {
+  font-size: 14px;
+  margin-right: 15px;
+}
+.Lovem-about-page .link-me .link:last-child {
+  margin-right: 0;
+}
+.Lovem-about-page .intro {
+  padding-top: 20px;
+  width: 600px;
+}
+.Lovem-about-page .intro .intro-item {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.5;
+  text-indent: 2em;
+  margin-bottom: 20px;
 }
