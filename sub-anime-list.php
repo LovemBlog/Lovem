@@ -32,6 +32,7 @@ $this->need('header.php'); ?>
     $cover = $list[$i]->cover;
     $title = $list[$i]->title;
     $evaluate = $list[$i]->evaluate;
+    $evaluate = nl2br($evaluate)
     $season_type_name = $list[$i]->season_type_name;
     $area = $list[$i]->areas[0]->name;
     $progress = $list[$i]->progress;
