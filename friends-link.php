@@ -39,8 +39,17 @@ $this->need('header.php'); ?>
           <img src="http://qny.lovem.fun/blog/20200325/9DP7Tyo8mmIe.png" alt="">
         </div>
         <div class="friend-info">
-          <div class="name ellipsis">Vue练手项目Demo</div>
+          <div class="name ellipsis">Leo的前端实验室</div>
           <div class="desc ellipsis-2lines">自己平时用来试验想法的 Vue 项目</div>
+        </div>
+      </a>
+      <a target="_blank" href="http://yoon.cool/" class="box friend-item">
+        <div class="logo-box">
+          <img src="http://qny.lovem.fun/blog/20200325/9DP7Tyo8mmIe.png" alt="">
+        </div>
+        <div class="friend-info">
+          <div class="name ellipsis">泳裤云纹</div>
+          <div class="desc ellipsis-2lines">漫揾英雄泪，相离处士家。谢慈悲剃度在莲台下。没缘法，转眼分离乍。赤条条来去无牵挂。那里讨烟蓑雨笠卷单行？一任俺芒鞋破钵随缘化！</div>
         </div>
       </a>
     </div>
