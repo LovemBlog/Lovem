@@ -12,7 +12,7 @@ body {
   background-color: #363B40;
   color: #999;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Microsoft YaHei', "Droid Serif", Georgia, "Times New Roman", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", "Microsoft Yahei", serif;
+  font-family: 'Microsoft YaHei',"PingFang SC", "Droid Serif", Georgia, "Times New Roman", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei", "Microsoft Yahei", serif;
   font-size: 87.5%;
 }
 #body {
